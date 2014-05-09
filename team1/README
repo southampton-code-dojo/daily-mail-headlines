@@ -1,0 +1,13 @@
+We first scraped a couple of hundred thousand Daily Mail headlines using Scrapy.
+
+We then indexed the headlines into a dictionary, mapping each word to every possible following word.
+
+We produce headlines by beginning with a random word, and randomly selecting a valid next word, repeating until we hit 25 words (an arbitrary limit).
+
+Then there is a bottle.py server which injects the headlines back into the Daily Mail homepage.
+
+python server.py
+then open localhost:8080 to see it
+
+
+We hoped to index the beginning and ends of sentences to give more reasonable headline lengths, to collect "appropriate" images for our headlines, and tinker with the headline generating algorithm to produce headlines which made more sense. Unfortunately we ran out of time.
