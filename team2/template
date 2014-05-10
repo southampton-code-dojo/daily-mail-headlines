@@ -1,0 +1,7 @@
+<html>
+	<head></head>
+	<body>
+		<div><img src="DMHead.png"</div>
+		<div style="position:absolute;left:30px;"><font size="5" color="blue">HEADLINE</font></div>
+	</body>
+</html>
